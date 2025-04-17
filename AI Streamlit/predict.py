@@ -17,6 +17,6 @@ pred_encoded = model.predict(input_df)[0]
 pred_label = encoder.inverse_transform([pred_encoded])[0]
 
 # Hasil
-print("🌡️ Temperatur:", temperature)
-print("💧 Kelembaban:", humidity)
-print("🔮 Prediksi kualitas udara:", pred_label)
+print("Temperatur:", temperature)
+print("Kelembaban:", humidity)
+print("Prediksi kualitas udara:", pred_label)

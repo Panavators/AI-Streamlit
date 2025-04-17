@@ -22,8 +22,8 @@ for temp in temps:
 
 # Tampilkan hasil
 if candidates:
-    print("🔥 Kombinasi temperatur & kelembaban yang menghasilkan 'Sedang':")
+    print("Kombinasi temperatur & kelembaban yang menghasilkan 'Sedang':")
     for t, h in candidates:
         print(f"- Temperatur: {t}°C, Kelembaban: {h}%")
 else:
-    print("⚠️ Tidak ada kombinasi yang memprediksi 'Sedang'")
+    print("Tidak ada kombinasi yang memprediksi 'Sedang'")
